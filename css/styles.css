@@ -108,3 +108,56 @@ body{
     background-color: #3ca8a2!important;
 }
 
+/** cuenta Regresiva **/
+
+.cuenta-regresiva h2 {
+    font-size: 4rem;
+}
+
+.fecha {
+    font-size: 1.5rem;
+}
+
+.fecha span {
+    font-weight: 700;
+}
+
+.fecha span:first-child::before {
+    display: none;
+}
+.fecha span::before {
+    content: '-';
+    clear: both;
+}
+
+
+@media screen and (min-width:992px) {
+
+    .cuenta-regresiva h2 {
+        font-size: 6rem;
+    }
+
+    .fecha {
+        font-size:2rem;
+    }
+
+}
+
+@media screen and (min-width:1200px){
+    .fecha {
+        font-size:2.8rem;
+    }
+}
+
+/** Boletos **/
+.boletos .precio {
+    font-size: 2rem;
+}
+
+.boletos .active {
+    background-color:  #752f97!important;
+    border-color: #752f97!important;
+}
+.list-group-item-success {
+   background-color: #4cb8b3!important;
+}
