@@ -2,6 +2,20 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.bg-danger {
+    background-color: #f53756!important;
+}
+.bg-success {
+    background-color: #4cb8b3!important;
+}
+.bg-warning {
+    background-color: #fef46d!important;
+}
+.bg-secondary {
+    background-color: #752f97!important;
+}
+
+
 .embed-responsive {
     position: relative;
     background-image: url(../img/banda.jpg);
@@ -63,19 +77,34 @@ body{
         top: 30%;
     }
     .informacion-concierto h1 {
-        font-size: 2.5rem;
+        font-size: 4rem;
         line-height: unset;
     }
 }
 
-@media (min-width:992px) {
-    .informacion-concierto h1 {
-        font-size: 3rem;
-    }
+/** Line up **/
+
+.separador::after{
+    content: '';
+    display: block;
+    height: 120px;
+    width: 300px;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+}
+.rock::after {
+    background-image: url(../img/guitarra.png);
+}
+.dj::after {
+    background-image: url(../img/dj.png);
 }
 
-@media (min-width:1200px) {
-    .informacion-concierto h1 {
-        font-size: 4rem;
-    }
+.horario.bg-warning li:nth-child(2n+1) {
+    background-color: #eae05b!important;
 }
+.horario.bg-success li:nth-child(2n+1) {
+    background-color: #3ca8a2!important;
+}
+
