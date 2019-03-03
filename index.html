@@ -9,7 +9,24 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Aid Live</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navegacion-principal" data-offset="10">
+
+      <nav id="navegacion-principal" class="navbar fixed-top navbar-light bg-transparent">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">AID LIVE <span> 2019</span></a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#galeria">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#boletos">Boletos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#lineup">Line Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <section class="embed-responsive embed-responsive-16by9">
         <video class="embed-responsive-item d-none d-lg-block" src="video/concierto.mp4" autoplay loop></video>
@@ -22,7 +39,7 @@
         </div>
     </section>
 
-    <main class="contenido-principal mt-5">
+    <main id="galeria" class="contenido-principal mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -40,7 +57,7 @@
         </div>
     </main>
 
-    <section id="galeria" class="galeria container">
+    <section class="galeria container">
         <div class="row mt-4">
             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                 <a href="#" data-toggle="modal" data-target="#imagen1">
