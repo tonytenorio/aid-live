@@ -36,11 +36,9 @@ body{
     font-size: 1.8rem;
     font-weight: 400;
 }
-
 .navbar-brand span {
     font-weight: 700;
 }
-
 .navbar-brand:hover {
     color: white;
 }
@@ -117,7 +115,7 @@ body{
     content: '';
     display: block;
     height: 120px;
-    width: 300px;
+    width: 150px;
     background-size: 120px;
     background-repeat: no-repeat;
     background-position: center center;
